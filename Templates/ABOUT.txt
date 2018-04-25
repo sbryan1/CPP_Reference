@@ -1,3 +1,40 @@
+C++ Operator Overloading
+___________________________________________________________
+
+both fundamental types and userdefined types use simple operators
+
+ex)
+_____
+
+	/*
+		you want to add an "Order" item to another using "+" similar to how 
+		   int objects can be added to one another using "+"
+
+	*/
+
+
+	int i = j + 3;
+	Order new Order = oldOrder + newItem;
+	
+
+_____
+
+
+1. Write a function that defines the operator
+2. Operator overloads start with the letters "operator"
+3. State the symbol that you're overloading
+
+
+
+- usually a member function
+- ocasionally a free function
+
+
+
+
+
+
+
 
 
 
