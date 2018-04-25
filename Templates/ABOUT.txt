@@ -1,0 +1,25 @@
+Templates
+__________
+
+
+
+C++ genericity is accompilished with templates
+ 
+ - resolved at compile time
+  - no runtime checks
+ 
+ 
+ 
+- you write a class or function once and it works with many different types
+    ex) average, largest, smallest of different number data types
+    ex) type safe collection
+
+
+std::string   is template based
+  
+  
+  
+
+
+
+
