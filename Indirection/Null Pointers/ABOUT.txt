@@ -1,0 +1,10 @@
+C++ Null Pointers
+_____________________________________________________________
+
+
+
+- a pointer can be not pointing to anything
+
+- use the keyword "nullptr"
+
+
