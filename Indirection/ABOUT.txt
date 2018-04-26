@@ -1,0 +1,50 @@
+C++ Indirection
+__________________________________________________
+
+Reference: alias for something else
+        - can only set its target when delcaring it
+        - anything done to the reference is being done to the target
+                -- its just another word for the same thing
+        - can't change it to refer to something else
+
+Pointers: more flexible alias for something else
+        - have capabilities that refernces dont
+        - can point to something that exists
+        - can point to "nowhere"
+        - can be made to point to something else
+        - extra syntax and punction
+  
+        - use the ' * '  operator to get the value that it points to 
+                -- aka: the dereference operator
+                -- you can use ' . ' on the object after using ' * ' 
+          
+  
+  
+ex)
+________
+
+//pointer "pA" initialized to the address of integer called "A"
+
+        int* pA = &A;         //or: int *pA = &A --- the compiler does not care which syntax you use
+        *pA = 5;        //puts 5 in the address you are pointing to 
+________
+
+
+
+
+ex)
+______
+        
+  
+        
+        
+        Person Kate("Kate", "Gregory", 234);        //declaration of a Person object called "Kate" and initalizing with constructo parameters
+        Person* pKate = &Kate;        //declaration of a Person pointer called pKate and initializing to the address of "Kate"
+        name = (*pKate).GetName();        //calling Person.getName() on the "Kate" object --- alternative syntax:       name = pKate->GetName();
+        
+        
+
+
+
+
+
