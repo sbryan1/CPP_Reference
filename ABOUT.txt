@@ -1,0 +1,55 @@
+C++ Const Keyword
+________________________________________________________________________
+
+- a way to commit to the compiler you won't change anything
+- when you first write a function, mark it const if you can
+
+
+
+
+	
+
+ex): declaring a local variable
+_____
+	int const zero = 0;
+_____
+
+
+
+
+ex): as a function parameter (by value)
+_____
+	int get(int const i)		// takes integer who's value doesn't change
+_____
+
+
+
+
+
+ex): as a function parameter (by reference)
+_____
+
+	int get(Person const& p)	// any code that will try to change p won't compile
+_____
+
+
+
+
+ex): modifier on a member function
+_____
+	int get() const;		// it promises that the function will not modify the state of the class, signifiying that
+					// signifies that it's ok to call this function from a const instance
+_____
+
+
+
+
+
+
+Compiler considers these to be the same
+	Const after:	int const myint = 3;		// preferred
+	Const before:	const int myint = 3;
+	
+	
+	
+	
