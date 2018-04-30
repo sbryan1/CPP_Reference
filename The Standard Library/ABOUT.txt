@@ -1,0 +1,88 @@
+The C++ Standard Library
+______________________________________
+
+
+vector : simple collection of items
+	- grows as needed when new items are added
+	- you can preallocate the vector to as big as need it to be 
+	- strongly typed through templates
+	- access with iterators or []
+	- in "std" namespace 
+	#include <vector>
+	
+	
+	
+	
+	_____
+	...
+		vector<int> v;
+	...
+	
+		//v.begin() will return an iterator that points to the beginning of the vector collection
+		//v.end() points past the last element
+		for(auto i = v.begin(); i != v.end(); i++){
+			cout << *i << " ";
+		}
+	...
+	
+	_____
+	
+	
+	
+	
+	
+	
+	
+	- reverse iterators are used to look at the vector backwards
+	- stays in the exact same order
+	
+	_____
+	...
+   		for(auto i = v.rbegin(); i != v.rend(); i++){
+   			cout << *i << " ";
+  		}
+    
+	...
+	_____
+	
+	
+	
+	-using "push_back()", you can put custom objects on a vector
+	_____
+    		vector<Myclass> vmc;
+    		Myclass mc1("mc1",1);
+    		Myclass mc2("mc2",2);
+    		vmc.push_back(mc1);
+    		vmc.push_back(mc2);
+    		for(auto i = vmc.begin(); i != vmc.end();i++){
+        		cout << i->getName() << ": " << i->getInt() << endl;
+    		}
+	_____
+	
+	
+	
+	
+	
+	
+	- when the vector go out of scope, all of the objects go out of scope
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+map: set of key-value pairs
+
+	
+
