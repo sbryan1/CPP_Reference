@@ -1,0 +1,20 @@
+C++ Polymorphism
+________________________________________________________________
+
+- a reference can refer to a derived class instance
+	=> Liskov substitutability
+
+- any base class function can be called through a base reference to a derived instance
+
+
+- "virtual" function : derived class function executes
+	=> polymorphism
+
+
+
+- "nonvirtual" function : base class function executes
+
+
+
+
+
