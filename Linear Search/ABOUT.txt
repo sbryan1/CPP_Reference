@@ -1,0 +1,8 @@
+Linear Search
+_________________
+
+- linear search demonstration, looks for the index of the item you are looking for 
+
+- also known as a sequential search, each item in the list is examined in the order in which it occurs until the desired item is found 
+
+- Linear search runs in at worst linear time and makes at most n comparisons, where n is the length of the list.

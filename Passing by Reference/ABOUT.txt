@@ -1,0 +1,19 @@
+Passing by Reference in C++
+______________________________________
+
+Pass-by-reference:  means to pass the reference of an argument in the calling function to the corresponding formal parameter of the called function. 
+
+- The called function can modify the value of the argument by using its reference passed in.
+
+Pass-by-references is more efficient than pass-by-value, because it does not copy the arguments. The formal parameter is an alias for the argument. When the called function read or write the formal parameter, it is actually read or write the argument itself.
+
+Difference between pass-by-reference and pass-by-value: 
+        - modifications made to arguments passed in by reference in the called function have effect in the calling function, 
+        
+        - modifications made to arguments passed in by value in the called function can not affect the calling function. 
+
+- Use pass-by-reference if you want to modify the argument value in the calling function. Otherwise, use pass-by-value to pass arguments.
+
+Difference between pass-by-reference and pass-by-pointer:
+        - pointers can be NULL or reassigned whereas references cannot. 
+        - Use pass-by-pointer if NULL is a valid parameter value or if you want to reassign the pointer. Otherwise, use constant or non-constant references to pass arguments.
