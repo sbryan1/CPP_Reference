@@ -4,7 +4,7 @@ class Myclass{
     std::string name;
 
   public:
-    myClass(string s){
+    Myclass(string s){
       name = s;
     }
     std::string getName(){
